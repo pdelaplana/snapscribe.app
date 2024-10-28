@@ -1,0 +1,43 @@
+@media (min-width: 700px) {
+  ion-app {
+    width: 700px;
+    margin: auto;
+    position: relative;
+
+    border-style: outset;
+    border-color: var(--ion-color-light-shade);
+    border-width: thin;
+  }
+
+  .scroll-content {
+    overflow-y:auto;
+  }
+}
+  
+  
+ion-header{
+  border-bottom-style: inset;
+  border-bottom-color: var(--ion-color-light-shade);
+  border-bottom-width: thin;
+
+}
+
+ion-modal {
+  --max-height: 100%;
+  --max-width: 100%;
+  --background: transparent;
+  --border-radius: 5px;
+  --height: 100%;
+  --width: 100%;
+}
+
+.ion-flex{
+  display: flex;
+}
+
+.ion-flex-gap-5{
+  gap: 5px;
+}
+.ion-flex-gap-10{
+  gap: 10px;
+}
